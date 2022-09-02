@@ -62,7 +62,7 @@ ul {
 
 ul li::marker {
     font-size: 2.4rem;
-    color: #F2B54E;
+    color: #FFBF3C;
 }
 
 hr {
@@ -106,12 +106,12 @@ a.btn {
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
-    background-color: #00875E;
+    background-color: #009845;
     border-radius: 15px;
 }
 
 a.btn:active {
-    background-color: #007A56;
+    background-color: #007A37;
 }
 
 /* DIV COLORS */
