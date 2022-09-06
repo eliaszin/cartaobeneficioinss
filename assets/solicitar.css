@@ -145,18 +145,19 @@ footer > div > div {
     padding: 2rem;
 }
 
-footer > div.menu {
+div.menu {
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
-footer > div.menu div {
+div.menu div {
+    max-width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    width: 45%;
+    width: 50%;
     text-align: left !important;
 }
 
@@ -173,3 +174,4 @@ footer img {
 .mt20 {
     margin-top: 2rem;
 }
+
