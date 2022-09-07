@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* =============== CONFIGURAÇÕES BÁSICAS =============== */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Rawline', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* =============== TIPOGRAFIA =============== */
+
+h1 {
+    margin: 2rem 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 2rem 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* =============== HEADER =============== */
+
+header > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header > div > div img {
+    margin-top: 2rem;
+}
+
+/* =============== MAIN =============== */
+
+main > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* BOTÕES */
+
+a.btn {
+    display: block;
+    margin: 2rem auto 4rem auto;
+    padding: 1rem;
+    color: #FFFFFF;
+    background-color: #1351b4;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+}
+
+a.btn b {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+a.btn:hover {
+    background-color: #104191;
+}
+
+a.btn:active {
+    background-color: #071d41;
+}
+
+/* DIV COLORS */
+
+div.gray {
+    color: #737373;
+    background-color: #F8F8F8;
+}
+
+/* DIV BENEFICES */
+
+div.benefices {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+div.benefices > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    width: 33%;
+}
+
+div.benefices > div i {
+    padding: 1rem;
+    font-size: 4rem;
+    color: #1351b4;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+div.benefices > div p {
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+    color: #FFFFFF;
+    background-color: #071d41;
+}
+
+footer h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+footer a {
+    margin: 0.5rem 0;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+footer > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+div.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+div.menu div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: 45%;
+    text-align: left !important;
+}
+
+footer img {
+    margin: 0;
+    height: 40px;
+    filter: invert(1);
+    text-align: left;
+
+}
+
+/* =============== HACKS =============== */
+
+.mt20 {
+    margin-top: 2rem;
+}
