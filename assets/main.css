@@ -1,242 +1,136 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
-/* =============== CONFIGURAÇÕES BÁSICAS =============== */
+footer, h1, header {
+    text-align: center
+}
+
+footer a, p a {
+    color: #1a5ca9
+}
+
+a.btn, footer a, p a {
+    text-decoration: none;
+    font-weight: 700
+}
+
+a.btn, h2 strong {
+    text-shadow: 0 2px 2px #328f35;
+    background-image: linear-gradient(#6bd26c, #41b244)
+}
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     margin: 0;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: 1.8rem;
+    color: #222;
+    background-color: #f4f5f7
+}
+
+a.btn, img {
+    display: block;
+    max-width: 100%
+}
+
+footer > div, header > div {
+    max-width: 80rem;
+    padding: 0 1.8rem;
+    margin: 0 auto
+}
+
+header {
+    color: #fff;
+    background-image: linear-gradient(#113a6a, #1a5ca9)
+}
+
+header img {
+    margin-top: 3.6rem
+}
+
+main > div > div {
+    margin: 0 auto;
+    padding: 3.6rem 1.8rem;
+    max-width: 80rem
+}
+
+footer {
+    margin-top: auto;
+    padding: 3.6rem 0;
+    font-size: 1.4rem;
+    background-color: #fff
 }
 
 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
     height: 100%;
+    margin: 0 auto
 }
-
-/* =============== TIPOGRAFIA =============== */
 
 h1 {
-    margin: 2rem 0;
+    margin: 1.8rem 0 0;
     font-size: 3.4rem;
-    font-weight: 700;
-    text-align: center;
+    line-height: 1
 }
 
-h1 u {
-    text-decoration-color: #0071B8;
+a.btn, h2 {
+    text-align: center;
+    font-size: 2.4rem
 }
 
 h2 {
-    margin: 3rem 0;
-    font-size: 2.4rem;
-    font-weight: 400;
-    text-align: center;
-    line-height: 3rem;
+    margin-top: .5rem;
+    font-weight: 400
 }
 
-h2 span.green {
-    color: #FFFFFF;
-    background-color: #009845;
-    font-weight: 600;
-    text-shadow: 0px 2px 4px #005e2a;
-}
-
-.h2especial {
-    margin: 2rem 0;
-    font-size: 2rem !important;
+h2 strong {
+    color: #fff
 }
 
 h3 {
-    margin: 1.8rem 0;
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-h3 i {
-    color: #0071B8;
-    font-size: 3.4rem;
-}
-
-h4 {
-    margin: 1.8rem 0;
-    font-size: 2.2rem;
-}
-
-ul {
-    font-weight: 700;
-}
-
-ul li::marker {
-    font-size: 2.4rem;
-    color: #FFBF3C;
+    margin: 3rem 0 1rem;
+    font-size: 2.8rem
 }
 
 hr {
-    max-width: 50%;
-    margin: 3.6rem auto;
-    border: 2px solid #DDDDDD;
-    border-radius: 15px;
-}
-
-/* =============== HEADER =============== */
-
-header {
-    background-color: #F4F5F7;
-    border-top: 4px solid #0071B8;
-    border-bottom: 2px solid #EEEEEE;
-}
-
-header > div > div {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* =============== MAIN =============== */
-
-main > div > div {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* BOTÕES */
-
-a.btn {
-    display: block;
-    max-width: 75%;
-    margin: 3.6rem auto 1.8rem auto;
-    padding: 1rem;
-    font-size: 2.4rem;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: #009845;
-    border-radius: 15px;
-}
-
-a.btn:active {
-    background-color: #007A37;
-}
-
-/* DIV COLORS */
-
-div.blue {
-    color: #FFFFFF;
-    background-color: #0071B8;
-}
-
-div.gray {
-    background-color: #F4F5F7;
-}
-
-/* STEPS */
-
-div.steps {
-    margin: 3.6rem 0;
-    background-color: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    border-radius: 15px;
-}
-
-div.steps i {
-    display: block;
-    margin: 1.8rem 0;
-    color: #0071B8;
-    font-size: 6rem;
-    text-align: center;
-}
-
-div.steps h4 {
-    text-align: center;
-}
-div.steps p {
-    margin: 1.8rem;
-}
-
-/* FAQ */
-
-details {
-    margin: 0.5rem auto;
-    padding: 1rem;
-    background-color: #FFFFFF;
-    border: 2px solid #EEEEEE;
-    border-radius: 15px;
-}
-
-summary {
-    margin: 1rem 1.8rem;
-    color: #0071B8;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-details p {
-    margin: 1.8rem;
-}
-
-/* =============== FOOTER =============== */
-
-footer {
-    border-top: 2px solid #EEEEEE;
-}
-
-footer a {
-    color: #0071B8;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-footer p.institucional {
-    font-size: 1.2rem;
-}
-
-footer > div > div {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-    font-size: 1.4rem;
-    text-align: center;
-}
-
-/* =============== HACKS =============== */
-
-.mt36 {
-    margin-top: 3.6rem !important;
+    margin: 1.8rem 0
 }
 
 .mt0 {
-    margin-top: 0 !important;
-}
-
-.mt100n {
-    margin-top: -10rem !important;
-}
-
-.mb100 {
-    margin-bottom: 10rem !important;
+    margin-top: 0 !important
 }
 
 .mb0 {
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important
 }
 
-.m0 {
-    margin: 0 !important;
+.mt18 {
+    margin-top: 1.8rem
 }
 
-.p0 {
-    padding: 0 !important;
+a.btn {
+    padding: 1.4rem;
+    margin: 3.2rem 0 2.3rem;
+    color: #fff;
+    box-shadow: 0 5px 0 #328f35;
+    border-radius: 1.5rem
 }
 
-.tcenter {
-    text-align: center;
+div.bgblue {
+    color: #fff;
+    background-color: #1a5ca9
+}
+
+div.bgblack {
+    color: #fff;
+    background-color: #222
+}
+
+p.termos {
+    font-size: 1.2rem
 }
