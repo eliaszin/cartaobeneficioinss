@@ -48,9 +48,6 @@ header > div > div {
     padding: 2rem;
 }
 
-header > div > div img {
-    margin-top: 2rem;
-}
 
 /* =============== MAIN =============== */
 
@@ -60,11 +57,29 @@ main > div > div {
     padding: 2rem;
 }
 
-/* BOTÕES */
+/* BOTÃO FLUTUANTE WHATSAPP */
+
+div.btn-wpp {
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background-image: linear-gradient(#6ad16b, #43b345);
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px #00000025;
+}
+
+div.btn-wpp p {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* + BOTÕES */
 
 a.btn {
     display: block;
-    margin: 2rem auto 4rem auto;
+    margin: 0 auto 3.2rem auto;
     padding: 1rem;
     color: #FFFFFF;
     background-color: #1351b4;
@@ -176,4 +191,8 @@ footer img {
 
 .mt20 {
     margin-top: 2rem;
+}
+
+img.mw85 {
+    max-width: 85%;
 }
