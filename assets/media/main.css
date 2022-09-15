@@ -40,6 +40,19 @@ p {
     text-align: center;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1.4rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
 /* =============== HEADER =============== */
 
 header > div > div {
@@ -55,6 +68,12 @@ main > div > div {
     max-width: 720px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+main hr {
+    max-width: 50%;
+    border: 2px solid #EEEEEE;
+    border-radius: 25px;
 }
 
 /* BOTÃO FLUTUANTE WHATSAPP */
@@ -139,6 +158,12 @@ div.benefices > div p {
     font-size: 1.4rem;
 }
 
+/* SPANS */
+
+span.atencao {
+    background-color: #E8D2FD;
+}
+
 /* =============== FOOTER =============== */
 
 footer {
@@ -195,4 +220,8 @@ footer img {
 
 img.mw85 {
     max-width: 85%;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
 }
