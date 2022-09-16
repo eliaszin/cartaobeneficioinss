@@ -22,13 +22,28 @@ img {
 /* =============== TIPOGRAFIA =============== */
 
 h1 {
+    margin: 0 0 2rem 0;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
     margin: 2rem 0 0 0;
     font-size: 1.8rem;
     font-weight: 600;
     text-align: center;
 }
 
-h2 {
+h4 {
     margin: 0 0 2rem 0;
     font-size: 1.6rem;
     font-weight: 400;
@@ -37,7 +52,6 @@ h2 {
 
 p {
     font-size: 1.4rem;
-    text-align: center;
 }
 
 ul {
@@ -156,6 +170,7 @@ div.benefices > div i {
 div.benefices > div p {
     color: #000000;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 /* SPANS */
@@ -189,27 +204,20 @@ footer > div > div {
     padding: 2rem;
 }
 
-div.menu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
 div.menu div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
-    width: 45%;
+    margin: 0 auto;
+    width: 75%;
     text-align: left !important;
 }
 
 footer img {
-    margin: 0;
+    margin: 0  2rem auto;
     height: 40px;
     filter: invert(1);
     text-align: left;
-
 }
 
 /* =============== HACKS =============== */
@@ -224,4 +232,8 @@ img.mw85 {
 
 .mb0 {
     margin-bottom: 0 !important;
+}
+
+.tcenter {
+    text-align: center;
 }
