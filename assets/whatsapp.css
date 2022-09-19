@@ -30,6 +30,7 @@ h1 {
 }
 
 h2 {
+    margin: 5rem 0;
     color: #5E5E5E;
     font-size: 1.8rem;
     font-weight: 400;
@@ -109,7 +110,6 @@ a.btn {
 footer {
     width: 100%;
     position: absolute;
-    bottom: 0;
     color: #FFFFFF;
     background-color: #273443;
 }
