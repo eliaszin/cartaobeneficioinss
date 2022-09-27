@@ -1,1 +1,236 @@
-@charset "UTF-8";@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);a.btn,footer,h1,h2,header{text-align:center}footer a,p a{color:#1a5ca9}a.btn,footer a,p a{text-decoration:none;font-weight:700}a.btn,h2 strong{text-shadow:0 2px 2px #328f35;background-image:linear-gradient(#6bd26c,#41b244)}html{font-size:62.5%}body{display:flex;flex-direction:column;height:100vh;margin:0;font-family:Roboto,sans-serif;font-size:1.8rem;color:#222;background-color:#f4f5f7}a.btn,div.bgblue,h2 strong,header{color:#fff}a.btn,img{display:block;max-width:100%}footer>div,header>div{max-width:80rem;padding:0 1.8rem;margin:0 auto}header{background-image:linear-gradient(#113a6a,#1a5ca9)}header img{margin-top:3.6rem}main>div>div{margin:0 auto;padding:3.6rem 1.8rem;max-width:80rem}footer{margin-top:auto;padding:3.6rem 0;font-size:1.4rem;background-color:#fff}img{height:100%;margin:0 auto}h1{margin:1.8rem 0 0;font-size:3.4rem;line-height:1}a.btn,h2{font-size:2.4rem}h2{margin-top:.5rem;font-weight:400}h3{margin:3rem 0 1rem;font-size:2.8rem}hr{margin:1.8rem 0}.mt0{margin-top:0!important}.mb0{margin-bottom:0!important}.mt18{margin-top:1.8rem}a.btn{padding:1.4rem;margin:3.2rem 0 2.3rem;box-shadow:0 5px 0 #328f35;border-radius:1.5rem}div.bgblue{background-color:#1a5ca9}div.bgblack{color:#fff;background-color:#222}p.termos{font-size:1.2rem}
+@charset "UTF-8";
+
+/* =============== CONFIGURAÇÕES BÁSICAS =============== */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Rawline', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* =============== TIPOGRAFIA =============== */
+
+h1 {
+    margin: 2rem 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 2rem 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* =============== HEADER =============== */
+
+header > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header img {
+    margin: 1rem auto 0 auto;
+}
+
+/* =============== MAIN =============== */
+
+main > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* BOTÃO FLUTUANTE WHATSAPP */
+
+div.btn-wpp {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background-image: linear-gradient(#6ad16b, #43b345);
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px #00000025;
+}
+
+div.btn-wpp p {
+    margin: 0 0 0 0.5rem;
+    font-size: 1.8rem;
+}
+
+/* + BOTÕES */
+
+a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 3.2rem auto;
+    padding: 1rem;
+    color: #FFFFFF;
+    background-color: #1351b4;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+}
+
+a.btn img {
+    margin: 0 0.5rem 0 0;
+}
+
+a.btn b {
+    margin: 0 0 0 0.35rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+a.btn:hover {
+    background-color: #104191;
+}
+
+a.btn:active {
+    background-color: #071d41;
+}
+
+a.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 2rem auto;
+    padding: 1rem;
+    color: #1351b4;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #1351b4;
+    border-radius: 25px;
+}
+
+a.btn2 img {
+    margin: 0 0.5rem 0 0;
+}
+
+a.btn2 b {
+    margin: 0 0 0 0.35rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+a.btn2:active {
+    border: 1px solid #071d41;
+}
+
+/* DIV COLORS */
+
+div.gray {
+    color: #737373;
+    background-color: #F8F8F8;
+}
+
+/* DIV BENEFICES */
+
+div.benefices {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+div.benefices > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    width: 33%;
+}
+
+div.benefices > div img {
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+div.benefices > div p {
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+    color: #FFFFFF;
+    background-color: #071d41;
+}
+
+footer h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+footer a {
+    margin: 0.5rem 0;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+footer > div > div {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+div.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+div.menu div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: 45%;
+    text-align: left !important;
+}
+
+footer img {
+    margin: 0;
+    height: 40px;
+    filter: invert(1);
+    text-align: left;
+
+}
+
+/* =============== HACKS =============== */
+
+.mt20 {
+    margin-top: 2rem;
+}
+
+img.mw85 {
+    max-width: 85%;
+}
