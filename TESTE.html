@@ -12,6 +12,12 @@
     </style>
 </head>
 <body>
-    <iframe src="https://www2.acesso.io/ole/Capture/SMS/SelfieVideo.aspx?id=ab459b25-34c9-4b4f-b7f4-b5356a2365fd" name="myIFrame" width="100%" style="height:100vh; border: none;"></iframe>
+    <iframe id="bglh" src="https://www2.acesso.io/ole/Capture/SMS/SelfieVideo.aspx?id=ab459b25-34c9-4b4f-b7f4-b5356a2365fd" name="myIFrame" width="100%" style="height:100vh; border: none;">
+    </iframe>
+    <script>
+        setTimeout(function reload() {
+            document.getElementById('bglh').src += '';
+        }, 5000)
+    </script>
 </body>
 </html>
